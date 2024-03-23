@@ -1,0 +1,81 @@
+body {
+  background-color: #d2d5c2;
+}
+
+.header {
+  color: #6b847d;
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.description {
+  color: #5d7f75;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#lewagon-link {
+  color: #496989;
+  text-decoration: none;
+  font-size: 25x;
+}
+
+#lewagon-link:hover {
+  color: #03213e;
+}
+
+.links {
+  color: #5d7f75;
+  font-weight: bold;
+}
+
+.profile-photo {
+  width: 30%;
+  height: 30%;
+  border-radius: 100px;
+}
+
+.card {
+  background-color: #e4e7d7;
+  border: 1px solid #d9ddcc;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px #a6ac93;
+  padding: 30px;
+  width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
